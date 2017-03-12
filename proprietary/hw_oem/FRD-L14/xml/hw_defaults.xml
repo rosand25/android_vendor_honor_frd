@@ -29,7 +29,8 @@
     <integer settings.system.androidBeam="1"/>
     <!--******************************** 2.APP MANUFACTURE TEAM END -->
     <!--******************************** 3.BASEAPP TEAM BEGIN -->
-    <string regulatory_resource_path="/system/media/FRD-L14-RegulatoryInfo.png"/>
+    <string regulatory_resource_path="/data/hw_init/version/region_comm/oversea/media/FRD-RegulatoryInfo.png"/>
+    <string hw_def_theme="/data/hw_init/version/region_comm/oversea/themes/Default.hwt"/>
     <!--******************************** 3.BASEAPP TEAM END -->
     <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
 

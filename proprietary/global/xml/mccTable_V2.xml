@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- 当前版本号：MCC_table V4.13目前包含 167个国家 -->
+<!-- 当前版本号：MCC_table V4.14目前包含 167个国家 -->
 <mcc-table version="1.0">
   <mcc-entry mcc="202"
     smallest-digit="2"
@@ -63,6 +63,7 @@
     country ="ba"
     time-zone="Europe/Sarajevo"
     wifi-channel=""
+    script="Latn"
     />
   <mcc-entry mcc="219"
     smallest-digit="2"
@@ -77,6 +78,7 @@
     country ="rs"
     time-zone="Europe/Belgrade"
     wifi-channel=""
+    script="Latn"
     />
   <mcc-entry mcc="222"
     smallest-digit="2"
@@ -336,6 +338,7 @@
     country ="me"
     time-zone="Europe/Podgorica"
     wifi-channel=""
+    script="Latn"
     />
   <mcc-entry mcc="302"
     smallest-digit="3"
@@ -406,6 +409,7 @@
     country ="az"
     time-zone="Asia/Baku"
     wifi-channel=""
+    script="Latn"
     />
   <mcc-entry mcc="401"
     smallest-digit="2"
@@ -560,6 +564,7 @@
     country ="uz"
     time-zone="Asia/Tashkent"
     wifi-channel=""
+    script="Latn"
     />
   <mcc-entry mcc="436"
     smallest-digit="2"
@@ -609,6 +614,7 @@
     country ="hk"
     time-zone="Asia/Hong_Kong"
     wifi-channel=""
+    script="Hant"
     />
   <mcc-entry mcc="455"
     smallest-digit="2"
@@ -616,6 +622,7 @@
     country ="mo"
     time-zone="Asia/Macau"
     wifi-channel=""
+    script="Hant"
     />
   <mcc-entry mcc="456"
     smallest-digit="2"
@@ -637,6 +644,7 @@
     country ="cn"
     time-zone="Asia/Shanghai"
     wifi-channel=""
+    script="Hans"
     />
   <mcc-entry mcc="466"
     smallest-digit="2"
@@ -644,6 +652,7 @@
     country ="tw"
     time-zone="Asia/Taipei"
     wifi-channel=""
+    script="Hant"
     />
   <mcc-entry mcc="470"
     smallest-digit="2"

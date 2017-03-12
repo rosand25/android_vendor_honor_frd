@@ -78,6 +78,9 @@ ro.config.hw_RemindWifiToPdp=true
 ro.config.hw_show_4G_Plus_icon=true
 ro.config.marketing_name=Honor 8
 ro.config.power_saver_2=true
+# AR0004IU05 dwx334042 20160816 begin
+ro.config.hw_eyescomfort_info=1
+# AR0004IU05 dwx334042 20160816 end
 ######## 2.BASEAPP TEAM END
 #####################################################################################
 ######## 3.MULTI-MEDIA TEAM BEGIN
@@ -86,7 +89,10 @@ ro.config.power_saver_2=true
 #####################################################################################
 ######## 4.FRAMEWORK TEAM BEGIN
 ro.config.enable_rms=true
-ro.config.hw_nlp=com.amap.android.ams
+#DTS2016122902771 yuchao wx333352  20161229 Begin
+ro.config.hw_nlp=com.baidu.map.location
+ro.config.hw_camera_nfc_switch=true
+#DTS2016122902771 yuchao wx333352  20161229 End
 ro.sf.lcd_density=480
 ro.config.RmsVersion=15
 ro.config.hw_auto_acc_enable=true
@@ -117,13 +123,14 @@ ro.config.hw_vtlte_on=true
 ######## 7.PRODUCT INFO BEGIN
 ro.product.hardwareversion=HL1FRDAL10M
 ro.ireader.channel=108869
+ro.channelId.com.meituan=/hw_oem/etc/mtconfig.ini
 ######## 7.PRODUCT INFO END
 #####################################################################################
 ######## 8.TELEPHONY TEAM BEGIN
 ro.hwpp.is_tuneric_low_perf=true
 ro.config.hw_pop_unsupport_lte=false
 ro.config.networkmode_hide_dyn=true
-ro.config.full_network_support=ture
+ro.config.full_network_support=true
 ######## 8.TELEPHONY TEAM END
 #####################################################################################
 ########"                                                       "############
@@ -133,3 +140,8 @@ ro.config.full_network_support=ture
 
 import /system/etc/nc_chr.prop
 import /system/etc/local_hide.prop
+#DTS2016082206151  zhanglu/wx292198 20160826 begin
+ro.product.name=FRD-AL10
+ro.build.id=HUAWEIFRD-AL10
+ro.product.model=FRD-AL10
+#DTS2016082206151  zhanglu/wx292198 20160826 end

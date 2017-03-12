@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources>
+    <integer settings.secure.dts_mode="3"/>
+    <!--bool hw_backup_otg_enable ="true"/-->
+    <!--bool hw_backup_sd_disable ="true"/-->
+    <integer settings.system.vibrate_when_ringing="1"/>
+    <string theme_no_online = "false"/>
+    <bool settings.secure.bluetooth_on="false"/>
+    <!-- DTS2011112802074 yangchenghai 00184280 20111208 begin -->
+    <!-- When remote hand up ,whether screen should wakeup or not ,here we set value is wakeup-->
+    <!-- BEGIN PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!--<bool hw_call_wakeup="true"/>-->
+    <!-- END PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+     <!-- DTS2012070305313 chenzhong 20120703 begin -->
+    <!--DTS2012122503629 shifengbing add Austrian mcc/mnc 20121226 begin-->
+    <string reg_plmn_custom="46000,46002,46007;24001,24007,24005;24405,24421;24002,24008,24004;46060,46008;23430,23433;21407,21404,21405,21418;21401,21406,21416;21403,21419,21421;73002,73008;74000,74002;23212,23205;23203,23207;23211,23201" />
+    <!--DTS2012122503629 shifengbing add Austrian mcc/mnc 20121226 end-->
+    <!-- DTS2012070305313 chenzhong 20120703 end -->
+    <!-- DTS2011112802074 yangchenghai 00184280 20111208 end -->
+    <string white_languages="zh_CN,en_US,zh_TW,zh_HK"/>
+    <!-- DTS2011030905517 shifengbin 20110314 begin -->
+    <integer settings.system.screen_brightness="128"/>
+    <integer settings.system.screen_off_timeout="30000"/>
+    <!-- DTS2011030905517 shifengbin 20110314 end -->
+    <integer settings.global.wifi_sleep_policy="1"/>
+    <!-- DTS2010092701023 mengxiaokun00172620 20100930 begin -->
+    <integer power_saving_on="1"/>
+    <!-- DTS2010092701023 mengxiaokun00172620 20100930 end -->
+    <!-- DTS2011121605249 niguanhua 20111216 begin -->
+    <!-- When remote answer ,whether vibrate should turn on  or not ,here we set value is turn on-->
+    <integer hw_vibrate_on="1"/>
+    <integer vibrate_when_ringing="1"/>
+    <!-- DTS2011121605249 niguanhua 20111216 end -->
+    <!-- DTS2011080903932 yushaochen 20110811 begin -->
+    <!-- BEGIN PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!--<integer hwfeature_endtocall_log="1"/>-->
+    <!-- END PN: DTS2014070906123, Modified by jiangpingping/KF58212, 2014/07/10 -->
+    <!-- DTS2011080903932 yushaochen 20110811 end -->
+    <!-- DTS2011072606499 wanggang 20110802 begin -->
+    <!-- DTS2011072606499 wanggang 20110802 end -->
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 begin -->
+    <integer ipcall_enabled="1" />
+    <!-- DTS2011112503270 yangchenghai 00184280 20111205 end -->
+    <!-- DTS2012022300283  linrongqiu 20120228 begin -->
+
+    <!-- DTS2012022300283  linrongqiu 20120228 end -->
+    <!-- DTS2012022804212 zhangyafeng 20120228 begin -->
+    <integer hw_video_qulity_level="1"/>
+    <!-- DTS2012022804212 zhangyafeng 20120228 end -->
+    <!-- DTS2012022005900  litie 20120302 begin -->
+    <integer hw_front_camera_support_coloreffect="1"/>
+    <!-- DTS2012022005900  litie 20120302 end -->
+    <!-- DTS2012112006951   sunshangbang 20121124 begin -->
+    <string plmn="460003#46003,en_US,China Telecom;460003#46003,zh_CN,中国电信;460003#46003,zh_TW,中國電信;460003#46003,zh_HK,中國電信;460000#46000#460002#46002#460007#46007,en_US,China Mobile;460000#46000#460002#46002#460007#46007,zh_CN,中国移动;460000#46000#460002#46002#460007#46007,zh_TW,中國移動;460000#46000#460002#46002#460007#46007,zh_HK,中國移動;460001#46001#460009#46009,en_US,China Unicom;460001#46001#460009#46009,zh_CN,中国联通;460001#46001#460009#46009,zh_TW,中國聯通;460001#46001#460009#46009,zh_HK,中國聯通;999999#99999,en_US,Unknown Network;999999#99999,zh_CN,未知网络;999999#99999,zh_TW,未知網絡;999999#99999,zh_HK,未知網絡"/>
+    <!-- DTS2012112006951   sunshangbang 20121124 end -->
+    <!-- DTS2012120705509 changleitao/KF49063 20121210 begin -->
+    <string hwsupport_bluetooth_media="true"/>
+    <!-- DTS2012120705509 changleitao/KF49063 20121210 end -->
+    <!--string default_first_music="Emo_Mamma.mp3"/-->
+    <bool settings.secure.wifi_on="false"/>
+    <!-- DTS2014031104695 zhuweichen 20140311 being -->
+    <integer settings.secure.mobile_data="1"/>
+    <!-- DTS2014031104695 zhuweichen 20140311 end -->
+    <!-- DTS2014030800351 jiayanhong/00176905 20140308 begin -->
+    <!-- DTS2014053000811   zhanghao 00260328 20140616 begin-->
+    <!-- DTS2014062307965 g00122041 20140623 begin-->
+    <string no_write_sms_package="com.huawei.android.ds,com.android.mediacenter,com.huawei.hwid,com.huawei.security,com.huawei.hisuite,com.android.phone,com.huawei.remoteassistant"/>
+    <!-- DTS2014062307965 g00122041 20140623 end-->
+    <!-- DTS2014053000811   zhanghao 00260328 20140616 end-->
+    <!-- DTS2014030800351 jiayanhong/00176905 20140308 end -->
+</resources>
+

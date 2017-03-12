@@ -31,7 +31,8 @@
     <integer is_show_google="0"/>
     <integer settings.global.mobile_data="1"/>
     <integer ca_settings_on="1"/>
-    <string custom_certify_picture="/system/media/FRD-AL10.png"/>
+    <string custom_certify_picture="/data/hw_init/product/media/FRD-AL10.png"/>
+    <string hw_def_theme="/data/hw_init/version/region_comm/china/themes/Default.hwt"/>
     <!--******************************** 3.BASEAPP TEAM END -->
     <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
 
@@ -48,4 +49,10 @@
     <!--******************************** 8.CUSTOM TEAM BEGIN -->
 
     <!--******************************** 8.CUSTOM TEAM END -->
+    <!--******************************** 9.APP TELEPHONY TEAM BEGIN -->
+    <integer hw_volte_user_switch="1"/>
+    <!--******************************** 9.APP TELEPHONY TEAM END -->
+    <!--AR0007TJ42 chenke wx406710 20161128 begin -->
+    <integer start_cmcc_automail="1"/>
+    <!--AR0007TJ42 chenke wx406710 20161128 end -->
 </resources>

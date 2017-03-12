@@ -24,15 +24,10 @@
 ########"                                                       "############
 ########"   ONLY PROTOCOL PROPS ALLOWED IN THIS SECTION BEGIN   "############
 net.tethering.noprovisioning=true
-persist.sys.dualcards=false
-# AR0003HNQQ zhaolianyi 00219929 20160317 begin
-ro.config.attach_ip_type=IPV4V6PCSCF
-ro.config.attach_apn_enabled=true
-# AR0003HNQQ zhaolianyi 00219929 20160317 end
-# AR0003N0CC zhangze/00346362 20160228 begin
-persist.radio.nv_match_by_card=2
-ro.config.hw_save_pin=true
-# AR0003N0CC zhangze/00346362 20160228 end
+# DTS2016122401144 fandi/00404105 20161227 begin
+persist.radio.nv_match_by_card=0
+ro.config.hw_save_pin=false
+# DTS2016122401144 fandi/00404105 20161227 end
 # AR0004F8P8 dangdengfeng/00367615 20160705 begin
 persist.radio.infrared_switch=true
 # AR0004F8P8 dangdengfeng/00367615 20160705 end
@@ -69,34 +64,30 @@ persist.radio.infrared_switch=true
 #####################################################################################
 ######## 2.BASEAPP TEAM BEGIN
 import /system/etc/local_name.prop
-ro.config.nfc_hasese=false
-ro.config.hw_nfc_msimce=false
 ro.cofig.onlinemusic.enabled=false
 ro.cofig.onlinevideo.enabled=false
 ro.config.hw_floatvideo=false
 ro.config.hw_ReduceSAR=true
-ro.setupwizard.mode=DISABLED
+#DTS2016102512232 fangyunzhong/wx231527 20161027 delete
 ro.config.emailsound=Letter.ogg
 ro.config.calendarsound=Step.ogg
+ro.config.hw_nfc_msimce=false
+ro.config.nfc_hasese=false
+#DTS2016082411042 yanyongjun/00293352 20160824 begin
+ro.config.hw_camera_nfc_switch=true
+#DTS2016082411042 yanyongjun/00293352 20160824 end
 ro.config.hw_hotswap_on=true
 ro.config.hw_showTestInfo=false
 ro.config.hw_lte_support=true
 ro.config.soundtrigger_enabled=0
-ro.dual.sim.phone=false
-ro.config.hw_sim2airplane=false
 ro.frp.pst=/dev/block/platform/hi_mci.0/by-name/frp
-ro.config.hide_simcard_index=true
-ro.config.hw_hideRegulatory=false
+ro.dual.sim.phone=false
 ro.config.marketing_name=Honor 8
-# AR0004E399 caolibin wx164308 20160616 begin
-ro.config.hw_dialpad_hd_on=false
-ro.config.hw_volte_show_on=false
-# AR0004E399 caolibin wx164308 20160616 end
+ro.config.hw_hideRegulatory=false
 ######## 2.BASEAPP TEAM END
 #####################################################################################
 ######## 3.MULTI-MEDIA TEAM BEGIN
 ro.config.hw.security_volume=8
-ro.config.hw_volte_dyn=true
 ######## 3.MULTI-MEDIA TEAM END
 #####################################################################################
 ######## 4.FRAMEWORK TEAM BEGIN
@@ -121,10 +112,12 @@ ro.config.hw_eas_sdformat=true
 ro.product.hardwareversion=HL1FRDL04M
 ######## 7.PRODUCT INFO END
 ######## 8.TELEPHONY BEGIN#############
-ro.config.hw_volte_on=true
-ro.config.hw_ims_as_normal=true
+# DTS2016122401144 fandi/00404105 20161227 begin
+ro.config.hw_volte_on=false
+ro.config.hw_ims_as_normal=false
+ro.config.hw_volte_dyn=false
+# DTS2016122401144 fandi/00404105 20161227 end
 ro.wifi.sar.control=true
-ro.config.usa_emergency_call=true
 ######## 8.TELEPHONY END###############
 #####################################################################################
 ########"                                                       "############
@@ -132,21 +125,9 @@ ro.config.usa_emergency_call=true
 ########"   ONLY APP TEAM PROPS ALLOWED IN THIS SECTION END     "############
 #############################################################################
 ro.config.hw_channel_info=0,0,0,0
-persist.sys.hidewindow.enable=true
-ro.config.hw_nfc_on=true
 
-ro.product.BaseVersion=FRD-L04C567B150
-
-ro.product.board=FRD-L04
-
+#DTS2016082206151  zhanglu/wx292198 20160826 begin
 ro.product.name=FRD-L04
-
-ro.product.model=FRD-L04
-
-ro.product.BaseDescription=FRD-L04-user 6.0 HUAWEIFRD-L04 C567B150 release-keys
-
-ro.product.BaseFingerprint=HONOR/FRD-L04/HWFRD:6.0/HUAWEIFRD-L04/C567B150:user/release-keys
-
 ro.build.id=HUAWEIFRD-L04
-
-ro.readfastboot=0
+ro.product.model=FRD-L04
+#DTS2016082206151  zhanglu/wx292198 20160826 end

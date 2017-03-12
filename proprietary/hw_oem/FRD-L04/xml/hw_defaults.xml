@@ -22,7 +22,6 @@
     <integer ca_settings_on="1"/>
     <integer hw_displayafterfirstring="0"/>
     <integer hw_global_networkmode_settings_enable="1"/>
-    <string regulatory_resource_path="/system/media/FRD-L04-RegulatoryInfo.png"/>
     <string enable_sdn="true"/>
     <integer show_mms_expired_status="1"/>
     <!--******************************** 1.PROTOCOL TEAM END -->
@@ -30,6 +29,8 @@
     <integer settings.system.androidBeam="1"/>
     <!--******************************** 2.APP MANUFACTURE TEAM END -->
     <!--******************************** 3.BASEAPP TEAM BEGIN -->
+    <string regulatory_resource_path="/data/hw_init/version/region_comm/oversea/media/FRD-RegulatoryInfo.png"/>
+    <string hw_def_theme="/data/hw_init/version/region_comm/oversea/themes/Default.hwt"/>
     <!--******************************** 3.BASEAPP TEAM END -->
     <!--******************************** 4.MULTI-MEDIA TEAM BEGIN -->
 

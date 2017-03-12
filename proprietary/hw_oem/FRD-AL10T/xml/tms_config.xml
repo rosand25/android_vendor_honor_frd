@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tms_config>
-    <!-- <telecoms_operator>1000</telecoms_operator> -->
+    <telecoms_operator>1000</telecoms_operator>
 
 	<bookmarklist>
 		<bookmark>
@@ -41,11 +41,11 @@
 		</bookmark>
 	</bookmarklist>
 
-	<!-- <home_page>
+	<home_page>
 		<name>和冲浪</name>
 		<url>http://go.10086.cn/rd/go/dh/</url>
 	</home_page>
-
+	<!-- 
 	<ua_profile>
 		<key>X-Wap-Profile</key>
 		<value></value>
