@@ -13,7 +13,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,vendor/huawei/frd/proprietary/,system/)
+	$(call find-copy-subdir-files,*,vendor/honor/frd/proprietary/,system/)
 
 PRODUCT_COPY_FILES += \
-	$(call find-copy-subdir-files,*,vendor/huawei/frd/root/,root/)
+	$(call find-copy-subdir-files,*,vendor/honor/frd/root/,root/)
