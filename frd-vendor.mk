@@ -18,4 +18,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     HWJNIFLPLocation
 
-$(call inherit-product, vendor/huawei/frd/frd-vendor-blobs.mk)
+$(call inherit-product, vendor/honor/frd/frd-vendor-blobs.mk)
