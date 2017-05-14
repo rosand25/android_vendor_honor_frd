@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,5 +11,22 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+PRODUCT_PACKAGES += \
+    native_packages.xml
+
+PRODUCT_PACKAGES += \
+    27c11b57-14ff-48bf-abbe-92e345092278.sec \
+    hdbd \
+    hw_healthd \
+    hw_ueventd \
+    kmsgcat \
+    logctl_service \
+    ntfs-3gd \
+    oeminfo_nvm_server \
+    teecd
+
+PRODUCT_PACKAGES += \
+    com.hisi.perfhub
 
 $(call inherit-product, vendor/honor/frd/frd-vendor-blobs.mk)

@@ -2,6 +2,7 @@
 #
 
 mount -o remount,rw /system
+mount -o remount,rw /vendor
 
 if [ -f /system/etc/native_packages.xml.zip ]; then
 
@@ -9,5 +10,3 @@ if [ -f /system/etc/native_packages.xml.zip ]; then
 	chmod 0644 /system/etc/native_packages.xml
 	./system/bin/reboot
 fi
-
-mount -o remount,ro /system
